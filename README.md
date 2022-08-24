@@ -1,5 +1,9 @@
 # Monitoring and Alert Management
 
+![EC2 CLOUDWATCH](https://user-images.githubusercontent.com/110179866/186394768-4924d159-75ef-427e-8c28-634e61a1ff11.jpeg)
+
+
+
 ## Monitoring
 
 Monitoring is a set of practices you can use to verify the security and performance of your AWS resources and data. These practices rely on various tools and services to collect, analyze, and present data insights. You can then use these insights to identify vulnerabilities and issues, predict performance, and optimize configurations.
