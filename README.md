@@ -1,6 +1,7 @@
 # Monitoring and Alert Management
 
-![EC2 CLOUDWATCH](https://user-images.githubusercontent.com/110179866/186394768-4924d159-75ef-427e-8c28-634e61a1ff11.jpeg)
+![EC2 CLOUDWATCH (1)](https://user-images.githubusercontent.com/110179866/186463374-47326c07-7919-4b5a-815a-6efbb7af066f.jpeg)
+
 
 
 
@@ -119,6 +120,9 @@ you will receive the following notification in your email
 
 
 # Autoscaling and Load Balancing 
+
+![load balancer](https://user-images.githubusercontent.com/110179866/186463396-855eb422-cf25-46e5-82d1-29cf28a05e7a.jpeg)
+
 
 - Autoscaling automatincally adjusts the amount of computational resources based on the server load
 
