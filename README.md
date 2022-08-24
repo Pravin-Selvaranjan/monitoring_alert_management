@@ -106,8 +106,13 @@ A common pattern is to use SNS to publish messages to Amazon SQS queues to relia
 
 - For Alarm thresholds, select the metric and criteria for the alarm. For example, you can leave the default settings for Group samples by (Average) and Type of data to sample (CPU utilization). For Alarm when, choose >= and enter 0.80. For Consecutive period, enter 1. For Period, select 5 minutes.
 
+
+- Once you have completed the above steps you should receive an email asking you to confirm the endpoint from SNS, be sure to confirm this and receive the below notification.
+
 <img width="340" alt="sns confirmed" src="https://user-images.githubusercontent.com/110179866/186426426-9ddb80ef-cf69-41ee-8548-7f1907c97d59.png">
 
+- If your instance exceeds the given paramaters ( in this case the CPU over 20 percent)
+you will receive the following notification in your email
 
 
 <img width="635" alt="SNS email not" src="https://user-images.githubusercontent.com/110179866/186426448-1fee9d4e-67dc-4250-8806-4bfc2defdc14.png">
