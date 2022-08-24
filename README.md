@@ -117,3 +117,25 @@ you will receive the following notification in your email
 
 <img width="635" alt="SNS email not" src="https://user-images.githubusercontent.com/110179866/186426448-1fee9d4e-67dc-4250-8806-4bfc2defdc14.png">
 
+
+# Autoscaling and Load Balancing 
+
+- Autoscaling automatincally adjusts the amount of computational resources based on the server load
+
+- Load Balancing distributes traffic beetween ec2 instances so that no one instance gets overwhelmed
+
+Application Load Balancer
+
+Network Load Balancer
+
+Elastic Load Balancer 
+
+
+Auto scaling policies 
+- Simple
+- Step
+- Target tracking
+etc 
+
+Target group
+Port listening on required ports 
