@@ -92,6 +92,9 @@ A common pattern is to use SNS to publish messages to Amazon SQS queues to relia
 
 - Select the instance and choose Actions, Monitor and troubleshoot, Manage CloudWatch alarms.
 
+<img width="860" alt="alarm setup" src="https://user-images.githubusercontent.com/110179866/186426332-2f77ed72-67ee-4fc9-be53-dcd36303ffba.png">
+
+
 - On the Manage CloudWatch alarms detail page, under Add or edit alarm, select Create an alarm.
 
 
@@ -102,4 +105,10 @@ A common pattern is to use SNS to publish messages to Amazon SQS queues to relia
 
 
 - For Alarm thresholds, select the metric and criteria for the alarm. For example, you can leave the default settings for Group samples by (Average) and Type of data to sample (CPU utilization). For Alarm when, choose >= and enter 0.80. For Consecutive period, enter 1. For Period, select 5 minutes.
+
+<img width="340" alt="sns confirmed" src="https://user-images.githubusercontent.com/110179866/186426426-9ddb80ef-cf69-41ee-8548-7f1907c97d59.png">
+
+
+
+<img width="635" alt="SNS email not" src="https://user-images.githubusercontent.com/110179866/186426448-1fee9d4e-67dc-4250-8806-4bfc2defdc14.png">
 
