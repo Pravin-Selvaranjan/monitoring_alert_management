@@ -85,3 +85,21 @@ Amazon Simple Queue Service (SQS) and Amazon SNS are both messaging services wit
 Amazon SQS is a message queue service used by distributed applications to exchange messages through a polling model, and can be used to decouple sending and receiving components.
 
 A common pattern is to use SNS to publish messages to Amazon SQS queues to reliably send messages to one or many system components asynchronously.
+
+
+
+# Setting up an alarm with EC2 instances
+
+- Select the instance and choose Actions, Monitor and troubleshoot, Manage CloudWatch alarms.
+
+- On the Manage CloudWatch alarms detail page, under Add or edit alarm, select Create an alarm.
+
+
+- For Alarm notification, choose whether to turn the toggle on or off to configure Amazon Simple Notification Service (Amazon SNS) notifications. Enter an existing Amazon SNS topic or enter a name to create a new topic.
+
+
+- For Alarm action, choose whether to turn the toggle on or off to specify an action to take when the alarm is triggered. Select an action from the dropdown.
+
+
+- For Alarm thresholds, select the metric and criteria for the alarm. For example, you can leave the default settings for Group samples by (Average) and Type of data to sample (CPU utilization). For Alarm when, choose >= and enter 0.80. For Consecutive period, enter 1. For Period, select 5 minutes.
+
