@@ -159,3 +159,4 @@ This is where auto scaling comes in. An auto scaling group (ASG) can be attached
 We can attach auto scaling rules to an ASG. Then, when thresholds are met (e.g. CPU utilization), the number of instances will be adjusted programatically.
 
 
+![Blank diagram (8)](https://user-images.githubusercontent.com/110179866/186672880-d7b1bdfe-f5e0-4eca-8ba4-27aed1ecdfcc.jpeg)
