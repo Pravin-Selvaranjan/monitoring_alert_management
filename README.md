@@ -67,7 +67,7 @@ In Cloud Monitoring, an alerting policy describes the circumstances under which 
 
 You deploy a web application onto an EC2 instance that's running a web application. While you expect the HTTP response latency to fluctuate, you want your support team to respond when the application has high latency for a significant time period.
 
-To ensure that your support team is notified when your application experiences high latencies, you would incorporate something along the lines of, If the HTTP response latency is higher than two seconds for at least five minutes, then open an incident and send an email to your support team.
+To ensure that your support team is notified when your application experiences high latencies, you would incorporate something along the lines of, If the HTTP response latency is higher than two seconds for at least five minutes, then send an email to the support team.
 
 
 
